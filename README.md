@@ -25,14 +25,25 @@ package_status_weight=9333
 package_status_indent='   '
 package_status_space=' '
 ```
+
+위는 Vimpacks의 기본 환경설정으로써, 기본값과 다른 부분만 `~/.vim/vimpacks.cfg` 파일에 설정하면 된다. 아래의 설정들은 `nerd-fonts`가 설치되어 있어야 아이콘들이 제대로 보인다.
+
 ```
-branch='master'
-default_category='plugins/start'
 category_normal=' '
 category_removed=' '
 package_status_init=' '
 package_status_normal=' '
 package_status_weight=127215
-package_status_indent='   '
-package_status_space=' '
 ```
+
+### package_status_weight
+Letter Status Icon | package_status_weight
+-- | --
+`A` &nbsp; (65)<br>`D` &nbsp; (68)<br>`M` &nbsp; (77) | `0` &nbsp; (65 - 65)
+`a` &nbsp; (97)<br>`d` &nbsp; (100)<br>`m` &nbsp; (109) | `32` &nbsp; (97 - 65)
+`Ⓐ` &nbsp; (9398)<br>`Ⓓ` &nbsp; (9401)<br>`Ⓜ` &nbsp; (9410) | `9333` &nbsp; (9398 - 65)
+`🄰` &nbsp; (127280)<br>`🄳` &nbsp; (127283)<br>`🄼` &nbsp; (127292) | `127215` &nbsp; (127280 - 65)
+`𝒜` &nbsp; (119964)<br>`𝒟` &nbsp; (119967)<br>`𝒨` &nbsp; (119976) | `119899` &nbsp; (119964 - 65)
+`𝓪` &nbsp; (120042)<br>`𝓭` &nbsp; (120045)<br>`𝓶` &nbsp; (120054) | `119977` &nbsp; (120042 - 65)
+
+## 사용예
