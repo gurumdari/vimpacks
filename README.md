@@ -56,10 +56,10 @@ This is the result of running `vimpacks list` with the icons set to the font gly
 
 ## Example
 
-<p><div style="background-color: #300A24;"><img src="images/ex01.png?raw=true" width="423" /></div></p>
+<p style="background-color: #300A24;"><img src="images/ex01.png?raw=true" width="423" /></p>
 
-<p><div style="background-color: #300A24;"><img src="images/ex02.png?raw=true" width="423" /></div></p>
+<p style="background-color: #300A24;"><img src="images/ex02.png?raw=true" width="423" /></p>
 
-<p><div style="background-color: #300A24;"><img src="images/ex03.png?raw=true" width="423" /></div></p>
+<p style="background-color: #300A24;"><img src="images/ex03.png?raw=true" width="423" /></p>
 
-<p><div style="background-color: #300A24;"><img src="images/ex04.png?raw=true" width="423" /></div></p>
+<p style="background-color: #300A24;"><img src="images/ex04.png?raw=true" width="423" /></p>
