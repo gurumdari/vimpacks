@@ -1,19 +1,21 @@
 # Vimpacks
-VIM 8 버전부터 VIM에 내장된 native-pack으로 package들을 관리할 수 있다. 
+<p align="center"><img src="images/logo.png?raw=true" width="728" /></p>
 
-VIM의 설정들을 GIT의 Repository에서 모아 관리하면서, native-pack의 Package들까지 Sub module로 통합 관리하고 있다면, 새로 환경이 구축되더라도, VIM 설정을 리모트 GIT의 Repository로부터 복제만 해오면 거의 모든 설정이 완성되는 장점이 있다. 그러나 GIT 명령어에 익숙하지 못하면 오히려 더 어렵게 느낄 수 있고, GIT 명령어도 다소 길어서 사용하기 힘들다. 그리고 항상 .vim 디렉토리에서 GIT 명령어를 사용해야 한다.
+From VIM 8 version, packages can be managed with native-pack built into VIM.
 
-Vimpacks는 작업 위치와 상관없이 어디에서나 리모트 GIT으로 관리되는 VIM의 설정들을 간단한 명령어로 처리할 수 있게 해주는 래핑 툴이다.
+If VIM settings are managed in the GIT repository, and native-pack packages are integrated and managed as sub modules, even if a new environment is built, almost all settings are completed by simply cloning the VIM settings from the remote GIT repository. Despite these advantages, if you are not familiar with GIT commands, you may find it more difficult, and the GIT commands are rather long, making them difficult to use. And you should always use GIT commands in the `.vim` directory.
 
-## 설치
+Vimpacks is a wrapping tool that allows you to process VIM settings managed by remote GIT anywhere with simple commands, regardless of the working location.
+
+## Installation
 ```
 $ cd /usr/local/bin
 $ sudo wget https://github.com/gurumdari/vimpacks/releases/latest/download/vimpacks
 $ chmod +x vimpacks
 ```
 
-## 설정
-Vimpacks의 환경설정은 `~/.vim/vimpacks.cfg` 파일에 할 수 있다.
+## Configuration
+Vimpacks configuration can be done in the `~/.vim/vimpacks.cfg` file.
 ```
 branch='master'
 default_category='plugins/start'
@@ -26,7 +28,7 @@ package_status_indent='   '
 package_status_space=' '
 ```
 
-위는 Vimpacks의 기본 환경설정으로써, 기본값과 다른 부분만 `~/.vim/vimpacks.cfg` 파일에 설정하면 된다. 아래의 설정들은 `nerd-fonts`가 설치되어 있어야 아이콘들이 제대로 보인다.
+The above is the basic configuration of vimpacks, and only the parts different from the default value can be set in the `~/.vim/vimpacks.cfg` file.
 
 ```
 category_normal=' '
@@ -36,7 +38,9 @@ package_status_normal=' '
 package_status_weight=127215
 ```
 
-### package_status_weight
+You need to have `nerd-fonts` installed to see the icons properly. Below is an image of the configuration screen capture when `nerd-fonts` is installed.
+
+### **package_status_weight**
 Letter Status Icon | package_status_weight
 -- | --
 `A` &nbsp; (65)<br>`D` &nbsp; (68)<br>`M` &nbsp; (77) | `0` &nbsp; (65 - 65)
@@ -46,4 +50,16 @@ Letter Status Icon | package_status_weight
 `𝒜` &nbsp; (119964)<br>`𝒟` &nbsp; (119967)<br>`𝒨` &nbsp; (119976) | `119899` &nbsp; (119964 - 65)
 `𝓪` &nbsp; (120042)<br>`𝓭` &nbsp; (120045)<br>`𝓶` &nbsp; (120054) | `119977` &nbsp; (120042 - 65)
 
-## 사용예
+This is the result of running `vimpacks list` with default configuration.
+
+This is the result of running `vimpacks list` with the icons set to the font glyph of `nerd-fonts`.
+
+## Example
+
+<p style="background-color: #300A24;"><img src="images/ex01.png?raw=true" width="423" /></p>
+
+<p style="background-color: #300A24;"><img src="images/ex02.png?raw=true" width="423" /></p>
+
+<p style="background-color: #300A24;"><img src="images/ex03.png?raw=true" width="423" /></p>
+
+<p style="background-color: #300A24;"><img src="images/ex04.png?raw=true" width="423" /></p>
