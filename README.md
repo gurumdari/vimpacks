@@ -1,5 +1,3 @@
-{{ "/images/style.css" | relative_url }}
-
 # Vimpacks
 <p align="center"><img src="images/logo.png?raw=true" width="728" /></p>
 
