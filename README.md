@@ -20,10 +20,11 @@ Vimpacks configuration can be done in the `~/.vim/vimpacks.cfg` file.
 branch='master'
 default_category='plugins/start'
 category_normal='📂'
-category_removed='🗑 '
-package_status_init='㊀'
-package_status_normal='◯ '
-package_status_weight=9333
+category_removed='🗑️'
+category_git='🔀'
+package_status_init=' '
+package_status_normal='📦'
+package_status_weight=127215
 package_status_indent='   '
 package_status_space=' '
 ```
@@ -33,12 +34,12 @@ The above is the basic configuration of vimpacks, and only the parts different f
 ```
 category_normal=' '
 category_removed=' '
+category_git=' '
 package_status_init=' '
-package_status_normal=' '
-package_status_weight=127215
+package_status_normal=' '
 ```
 
-You need to have `nerd-fonts` installed to see the icons properly. Below is an image of the configuration screen capture when `nerd-fonts` is installed.
+You need to install `nerd-fonts` to properly see the icons in the above settings.
 
 ### **package_status_weight**
 Letter Status Icon | package_status_weight
@@ -50,11 +51,9 @@ Letter Status Icon | package_status_weight
 `𝒜` &nbsp; (119964)<br>`𝒟` &nbsp; (119967)<br>`𝒨` &nbsp; (119976) | `119899` &nbsp; (119964 - 65)
 `𝓪` &nbsp; (120042)<br>`𝓭` &nbsp; (120045)<br>`𝓶` &nbsp; (120054) | `119977` &nbsp; (120042 - 65)
 
-This is the result of running `vimpacks list` with default configuration.
-
-This is the result of running `vimpacks list` with the icons set to the font glyph of `nerd-fonts`.
-
 ## Example
+
+Below is an image of the configuration screen capture when `nerd-fonts` is installed.
 
 <p style="background-color: #300A24;"><img src="images/ex01.png?raw=true" width="423" /></p>
 
