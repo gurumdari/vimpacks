@@ -1,3 +1,9 @@
+<style>
+  code {
+    font-family ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, "NotoSans Nerd Font";
+  }
+</style>
+
 # Vimpacks
 <p align="center"><img src="images/logo.png?raw=true" width="728" /></p>
 
@@ -32,7 +38,13 @@ package_status_space=' '
 
 The above is the basic configuration of vimpacks, and only the parts different from the default value can be set in the `~/.vim/vimpacks.cfg` file.
 
-> <code>category_normal='<font style="font-family: NotoSans Nerd Font;"></font> '<br>category_removed='<font style="font-family: NotoSans Nerd Font;"></font> '<br>category_git='<font style="font-family: NotoSans Nerd Font;"></font> '<br>package_status_init='<font style="font-family: NotoSans Nerd Font;"></font> '<br>package_status_normal='<font style="font-family: NotoSans Nerd Font;"></font> '</code>
+```
+category_normal=' '
+category_removed=' '
+category_git=' '
+package_status_init=' '
+package_status_normal=' '
+```
 
 You need to install `nerd-fonts` to properly see the icons in the above settings.
 
