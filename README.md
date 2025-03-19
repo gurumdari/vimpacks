@@ -32,10 +32,10 @@ package_status_space=' '
 The above is the basic configuration of vimpacks, and only the parts different from the default value can be set in the `~/.vim/vimpacks.cfg` file.
 
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>category_normal='<font style="font-family: NotoSans Nerd Font;"></font> '
-category_removed='<font style="font-family: NotoSans Nerd Font;"></font> '
-category_git='<font style="font-family: NotoSans Nerd Font;"></font> '
-package_status_init='<font style="font-family: NotoSans Nerd Font;"></font> '
-package_status_normal='<font style="font-family: NotoSans Nerd Font;"></font> '</code></pre><div class="zeroclipboard-container">
+category_removed='<span style="font-family: NotoSans Nerd Font;"></span> '
+category_git='<span style="font-family: NotoSans Nerd Font;"></span> '
+package_status_init='<span style="font-family: NotoSans Nerd Font;"></span> '
+package_status_normal='<span style="font-family: NotoSans Nerd Font;"></span> '</code></pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="category_normal=' '
 category_removed=' '
 category_git=' '
