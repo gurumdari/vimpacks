@@ -1,8 +1,4 @@
-<style>
-  code {
-    font-family ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, "NotoSans Nerd Font";
-  }
-</style>
+{{ "/images/style.css" | relative_url }}
 
 # Vimpacks
 <p align="center"><img src="images/logo.png?raw=true" width="728" /></p>
