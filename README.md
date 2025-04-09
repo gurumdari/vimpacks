@@ -56,8 +56,9 @@ Letter Status Icon | package_status_weight
 
 Below is an image of the configuration screen capture when `nerd-fonts` is installed.
 
-<p style="background-color: #300A24;"><img src="images/ex01.png?raw=true" width="423" style="margin-bottom:5px;" /><hr style="border-color: #808080; margin: 5px; line-height: 0px;" /><img src="images/ex02.png?raw=true" width="423" /></p>
-
+<p style="background-color: #300A24;"><img src="images/ex01.png?raw=true" width="423" /></p>
+<p style="background-color: #300A24;"><img src="images/ex02.png?raw=true" width="423" /></p>
+<hr />
 <p style="background-color: #300A24;"><img src="images/ex03.png?raw=true" width="423" /></p>
-
+<hr />
 <p style="background-color: #300A24;"><img src="images/ex04.png?raw=true" width="423" /></p>
