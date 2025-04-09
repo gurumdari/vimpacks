@@ -1,24 +1,28 @@
-# Vimpacks
-<p align="center"><img src="images/logo.png?raw=true" width="728" /></p>
+<p align="center"><img src="images/rebranded75.png?raw=true" width="570" /></p>
 
-From VIM 8 version, packages can be managed with native-pack built into VIM.
+> <span style="color: #FF0000">⚠  <span style="text-decoration: line-through; text-decoration-color: #808080">vimpacks</span> has been rebranded as **_vimmy_**.</span>
 
-If VIM settings are managed in the GIT repository, and native-pack packages are integrated and managed as sub modules, even if a new environment is built, almost all settings are completed by simply cloning the VIM settings from the remote GIT repository. Despite these advantages, if you are not familiar with GIT commands, you may find it more difficult, and the GIT commands are rather long, making them difficult to use. And you should always use GIT commands in the `.vim` directory.
+> 🌐 **_vimmy_**: [https://github.com/gurumdari/vimmy](https://github.com/gurumdari/vimmy)
 
-Vimpacks is a wrapping tool that allows you to process VIM settings managed by remote GIT anywhere with simple commands, regardless of the working location.
+**_vimmy_** is the tool to integrate vim configuration via git, highly configurable and easy to use experience.
+
+From vim 8 version, packages can be managed with native-pack built into vim.
+
+If vim configuration are managed in the git repository, and native-pack packages are integrated and managed as sub modules, even if a new environment is built, almost all settings are completed by simply cloning the vim configuration from the remote git repository. Despite these advantages, if you are not familiar with git commands, you may find it more difficult, and the git commands are rather long, making them difficult to use. And you should always use git commands in the `.vim` directory.
+
+**_vimmy_** is a wrapping tool that allows you to process vim configuration managed by remote git repository, anywhere with simple commands, regardless of the working location.
 
 ## Installation
 ```
 $ cd /usr/local/bin
 $ sudo wget https://github.com/gurumdari/vimpacks/releases/latest/download/vimpacks
-$ chmod +x vimpacks
+$ sudo chmod +x vimpacks
 ```
 
 ## Configuration
-Vimpacks configuration can be done in the `~/.vim/vimpacks.cfg` file.
-
+**_vimpacks_** configuration can be done in the `~/.vim/vimpacks.cfg` file.
 ```
-branch='master'
+branch='main'
 default_category='plugins/start'
 category_normal='📂'
 category_removed='🗑️'
@@ -30,7 +34,7 @@ package_status_indent='   '
 package_status_space=' '
 ```
 
-The above is the basic configuration of vimpacks, and only the parts different from the default value can be set in the `~/.vim/vimpacks.cfg` file.
+The above is the basic configuration of **_vimpacks_**, and only the parts different from the default value can be set in the `~/.vim/vimpacks.cfg` file.
 
 ```
 category_normal=' '
@@ -40,7 +44,7 @@ package_status_init=' '
 package_status_normal=' '
 ```
 
-You need to install `nerd-fonts` to properly see the icons in the above settings.
+You need to install Nerd Fonts to properly see the icons in the above settings.
 
 ### **package_status_weight**
 Letter Status Icon | package_status_weight
@@ -54,11 +58,11 @@ Letter Status Icon | package_status_weight
 
 ## Example
 
-Below is an image of the configuration screen capture when `nerd-fonts` is installed.
+Below is an image of the configuration screen capture when Nerd Fonts is installed.
 
-<p style="background-color: #300A24;"><img src="images/ex01.png?raw=true" width="423" /></p>
-<p style="background-color: #300A24;"><img src="images/ex02.png?raw=true" width="423" /></p>
-<hr />
-<p style="background-color: #300A24;"><img src="images/ex03.png?raw=true" width="423" /></p>
-<hr />
-<p style="background-color: #300A24;"><img src="images/ex04.png?raw=true" width="423" /></p>
+<p>
+	<div><img src="images/ex01.png?raw=true" width="690" /></div>
+	<div><img src="images/ex02.png?raw=true" width="690" /></div>
+</p>
+<p><img src="images/ex03.png?raw=true" width="690" /></p>
+<p><img src="images/ex04.png?raw=true" width="690" /></p>
